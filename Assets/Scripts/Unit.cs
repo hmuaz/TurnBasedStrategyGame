@@ -16,9 +16,9 @@ public class Unit : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetMouseButtonDown(0))
         {
-            Move(new Vector3(5f, 0f, 5f));
+            Move(MouseWorld.GetPosition());
         }
 
 
