@@ -6,6 +6,7 @@ public class Unit : MonoBehaviour
 {
     [SerializeField] private Animator unitAnimator;
     private Vector3 targetPosition;
+    public bool isUnitSelected = false;
 
     private void Awake()
     {
